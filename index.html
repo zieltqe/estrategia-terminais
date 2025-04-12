@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estratégia de Terminais - Roleta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Estratégia de Terminais</h2>
+    <input type="number" id="numeroInput" placeholder="Digite número da roleta (0 a 36)" min="0" max="36">
+    <button onclick="adicionarNumero()">Adicionar</button>
+    <button onclick="analisar()">Analisar</button>
+
+    <div id="historico"></div>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
